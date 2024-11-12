@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Canvas from './Components/Canvas'
 function App() {
   return (
-    <div>
-      <h1 className='text-green-900'>hello world</h1>
+    <div className='w-screen h-screen bg-black text-white'>
+      <Canvas/>
     </div>
   )
 }
